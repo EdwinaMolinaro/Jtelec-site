@@ -1,0 +1,258 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeef;
+  font-family: 'Slabo 27px', serif;
+}
+
+/* ACCEUIL poursuivre*/
+
+h1 {
+	display: inline;
+	position: relative;
+	font: 150px 'Slabo 27px', serif;
+	letter-spacing: px;
+	color: rgba(147,96,91,0.8);
+}
+
+
+h1:after {
+	content: "JTELEC";
+	position: absolute; left: -5px; top: -5px;
+	color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 100px;
+  }
+}
+
+.accueil{
+  background: url("../img/tower.jpg");
+  opacity: 0.7;
+  filter: contrast(1.90) sepia(0.6);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  margin: 0;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*END ACCEUIL POURSUIVRE*/
+
+
+.présentation{
+  text-align: center;
+  margin-top: 1.5%;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 5%;
+  font-size: 40px;
+  opacity: 0.4;
+  border-bottom: solid 1px;
+}
+
+.présentation-para{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+.services{
+  margin-top: 15%;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.para-services{
+  margin-top: 17.1%;
+  font-size: 16px;
+}
+/*fin service*/
+
+.orga-title{
+  margin-top: 45%;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.para-orga{
+  margin-top: 25%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.first{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Second{
+  text-align: center;
+}
+
+/*fin organigramme*/
+
+.pictures{
+  text-align: center;
+  margin-top: 15%;
+}
+
+.pictures-title{
+  text-align: center;
+  margin-top: 40%;
+  font-size: 25px;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.pictures p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.pictures-RD{
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+
+.pictures-RD:hover{
+  /*transform: scale(1.2,1);*/
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 5px 7px 5px gray;
+  opacity: 1;
+  transform: rotate(-2deg);
+}
+
+.BLOCK{
+  margin-top: 12%;
+  font-size: 16px;
+  color: #303030;
+  height: 100vh;
+}
+
+.block1{
+  background-color: #876663;
+}
+
+.block2{
+  background-color: #eeeeee;
+}
+
+.block3{
+  background-color: #876663;
+}
+
+h3{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.clique-me{
+  margin-top: 30%;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  color: #303030;
+}
+
+.clique-me:hover{
+  transform: rotateX(-360deg);
+  transition: all 1.2s;
+}
+
+@media screen and (max-width: 768px){
+  .clique-me{
+    margin-top: -5%;
+  }
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+a:hover{
+  color:black;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.contact{
+  margin-top: 10%;
+}
+
+.mail{
+  width: 30px;
+}
+
+.scroll-arrow {
+  margin-top: 20%;
+  margin-left: 80%;
+  width: 50px;
+}
+
+.scroll-arrow:hover{
+  transform: scale(1.2,1.2);
+  transition: all 1s;
+}
+
+@media screen and (max-width: 768px){
+  .scroll-arrow{
+    margin-top: -5%;
+  }
+}
+
+.menu li {
+  list-style: none;
+}
+
+.clients{
+  font-size: 18px;
+  margin-top: 10%;
+}
+
+.titre-clients{
+  margin-top: 8%;
+  font-size: 17px;
+  text-align: center;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}
+
+.contractant2{
+  margin-top: 5%;
+}
+
+.chiffres{
+  margin-top: 10%;
+}
+
+.zone{
+  margin-top: 15%;
+  font-size: 20px;
+
+}

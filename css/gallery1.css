@@ -1,0 +1,107 @@
+body, html{
+  background-color: #eeeeef;
+  font-family: 'Slabo 27px', serif;
+}
+
+.header{
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	font: 150px 'Slabo 27px', Sans-Serif;
+	letter-spacing: 5px;
+	color: rgba(147,96,91,0.8);
+}
+
+
+h1:after {
+	content: "GALLERY";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(0,0,0,0.8);
+}
+
+/*PHONE*/
+@media screen and (max-width: 768px){
+  h1, h1:after{
+    display: none;
+  }
+  .arrow, .site-accueil {
+    display: none;
+  }
+}
+
+/*PC*/
+@media screen and (min-width: 768px){
+  .gallery, .phone-accueil{
+    display: none;
+  }
+  .precedent, .suivant{
+    display: none;
+  }
+}
+
+/*.suivant{
+  text-align: right;
+}
+
+.precedent{
+  text-align: left;
+}*/
+
+.gallery{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+
+.arrow_center{
+  margin-top: 3%;
+  text-align: center;
+}
+
+.block{
+  border-top: 1px solid #C6C6C7;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.arrow{
+  width: 200px;
+  transition: all 1s;
+}
+
+.arrow:hover{
+  transform: scale(1.2,1.2);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.site-accueil{
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+a:hover{
+  color:black;
+}
+
+.pictures{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.pictures-RD{
+  margin-top: 2%;
+  width: 60%;
+  border-radius: 1%;
+  box-shadow: 5px 8px 5px gray;
+}
